@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loogin</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<% if false %>
+    Logout | Edit Profile
+<% else %>
+    Login | Sign UP
+<% end %>
+
+<br/>
+
+
+<%= yield %>
+
+</body>
+</html>
